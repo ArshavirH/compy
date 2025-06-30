@@ -7,6 +7,8 @@ plugins {
 
 dependencies {
 
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.0")
+
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }

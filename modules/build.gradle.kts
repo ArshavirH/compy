@@ -8,7 +8,7 @@ plugins {
 dependencies {
 
     implementation(project(":shared"))
-    implementation(project(":kernel-api"))
+    api(project(":kernel-api"))
 
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")

@@ -1,12 +1,14 @@
 package com.compy.cli
 
 import com.compy.cli.system.SystemInfo
+import com.compy.cli.project.ProjectCommand
 import picocli.CommandLine
 import kotlin.system.exitProcess
 
 @CommandLine.Command(
     subcommands = [
-        SystemInfo::class
+        SystemInfo::class,
+        ProjectCommand::class
     ]
 )
 class App
